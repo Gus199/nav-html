@@ -31,13 +31,14 @@ a, a:hover {
 }
 
 .top-bar li {
-    margin: 5px 25px;
+    margin: 5px 15px;
     
 }
 
 .top-bar a {
-    /* color: #fff; */
-    color:black
+    color: #fff;
+    font-size: 25px;
+  
 
 }
 
@@ -90,6 +91,12 @@ flex: 1;
     font-size: 30px;
     display: none;
 }
+
+.section {
+    height:80vh;
+    background:radial-gradient(#fff,#f5ba09) ;
+}
+
 @media screen and (max-width: 600px){
     nav{
         display: block;
